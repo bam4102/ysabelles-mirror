@@ -1,0 +1,24 @@
+# Prevent PHP errors from being displayed in response
+php_flag display_errors off
+
+# Ensure proper content type for JSON responses
+<Files "*.php">
+    <IfModule mod_headers.c>
+        Header set Content-Type "application/json" env=CONTENT_TYPE_JSON
+    </IfModule>
+</Files>
+
+# Force specific handlers for endpoints
+<Files "upload_product_images.php">
+    SetEnv CONTENT_TYPE_JSON 1
+</Files>
+
+# Increase upload limits if needed
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+# Ensure errors are logged properly
+php_flag log_errors on
+php_value error_log "../../logs/php_errors.log" 

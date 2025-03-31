@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Macklin Display Bold';
+    src: url('assets/fonts/MacklinDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Macklin Display Medium';
+    src: url('assets/fonts/MacklinDisplay-Medium.ttf');
+}
+
+body {
+    background-color: #FEF7F2; /* Keep the beige color */
+    font-family: "Segoe UI", sans-serif;
+}
+
+.main-container {
+    background-color: #FEF7F2; /* Consistent beige background */
+    min-height: 100vh;
+}
+
+.add-image {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.image-preview-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.image-preview {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px dashed #dee2e6;
+    border-radius: 4px;
+}
+
+.remove-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 6px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 0 3px 0 3px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.nav-pills .nav-link {
+    color: #dc3545;
+    background-color: white; /* Set background color to white when not selected */
+}
+
+.nav-pills .nav-link.active {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Custom styles for utility navigation tabs */
+.utility-nav-item {
+    margin-right: 0.5rem;
+}
+
+.utility-nav-link {
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.utility-nav-link:hover {
+    color: white;
+}
+
+.utility-nav-link.active {
+    background-color: white !important;
+    color: #FC4A49 !important;
+}
+
+/* Custom button styles */
+button[name="add_category"],
+button[name="add_product"],
+button[name="add_entourage"] {
+    background-color: #FC4A49;
+    border-color: #FC4A49;
+}
+
+button[name="add_category"]:hover,
+button[name="add_product"]:hover,
+button[name="add_entourage"]:hover {
+    background-color: #e64342;
+    border-color: #e64342;
+}
+
+.title-container {
+    background-color: #FC4A49;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+/* Adjust nav pills for the new location */
+.title-container .nav-pills .nav-link {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.5rem 1.5rem;
+}
+
+.title-container .nav-pills .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.title-container .nav-pills .nav-link.active {
+    background-color: white !important;
+    color: #FC4A49 !important;
+    border-color: white;
+}
+
+.utility-nav-item {
+    margin-left: 0.5rem;
+}
+
+/* Navigation Pills Styling */
+.title-container .nav-pills {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 4px;
+}
+
+.title-container .nav-pills .utility-nav-link {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.title-container .nav-pills .utility-nav-link:hover {
+    background: rgba(252, 74, 73, 0.3);
+    transform: translateY(-1px);
+}
+
+.title-container .nav-pills .utility-nav-link.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: #FC4A49;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.title-container .nav-pills .utility-nav-item {
+    margin: 0;
+}
+
+/* Remove conflicting styles */
+.utility-nav-link,
+.utility-nav-item,
+.nav-pills .nav-link,
+.nav-pills .nav-link.active {
+    /* Override old styles */
+    margin: 0;
+    border: none !important;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 4px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn-danger {
+    background-color: #FC4A49;
+    border-color: #FC4A49;
+    box-shadow: 0 2px 4px rgba(252, 74, 73, 0.2);
+}
+
+.btn-danger:hover {
+    background-color: #e64342;
+    border-color: #e64342;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(252, 74, 73, 0.3);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    box-shadow: 0 2px 4px rgba(13, 110, 253, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(13, 110, 253, 0.3);
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    box-shadow: 0 2px 4px rgba(108, 117, 125, 0.2);
+}
+
+.btn-secondary:hover {
+    background-color: #5c636a;
+    border-color: #5c636a;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(108, 117, 125, 0.3);
+}
+
+.btn-sm {
+    padding: 4px 8px;
+    font-size: 0.875rem;
+}
+
+/* Button groups and spacing */
+.btn + .btn {
+    margin-left: 8px;
+}
+
+/* Button focus states */
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(252, 74, 73, 0.25);
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.25);
+}
+
+.btn-secondary:focus {
+    box-shadow: 0 0 0 3px rgba(108, 117, 125, 0.25);
+}

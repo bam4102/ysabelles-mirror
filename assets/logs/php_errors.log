@@ -1,0 +1,346 @@
+[27-Mar-2025 11:41:43 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 11:41:43 Asia/Manila] 2025-03-27 11:41:43 - Upload request started
+[27-Mar-2025 11:41:43 Asia/Manila] 2025-03-27 11:41:43 - Processing upload for product ID: 1
+[27-Mar-2025 11:41:43 Asia/Manila] 2025-03-27 11:41:43 - Processing 4 files
+[27-Mar-2025 11:41:43 Asia/Manila] 2025-03-27 11:41:43 - PHP WARNING: Undefined variable $db in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:41:43 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:41:43 Asia/Manila] 2025-03-27 11:41:43 - FATAL ERROR: Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:41:43 Asia/Manila] 2025-03-27 11:41:43 - Sending response - {"success":false,"message":"A fatal error occurred on the server","error":"Uncaught Error: Call to a member function beginTransaction() on null in C:\\Users\\ASUS\\Documents\\GitHub\\ybc-ojts-2025\\assets\\controllers\\products\\upload_product_images.php:66\nStack trace:\n#0 {main}\n  thrown","errorCode":1}
+[27-Mar-2025 11:42:20 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 11:42:20 Asia/Manila] 2025-03-27 11:42:20 - Upload request started
+[27-Mar-2025 11:42:20 Asia/Manila] 2025-03-27 11:42:20 - Processing upload for product ID: 1
+[27-Mar-2025 11:42:20 Asia/Manila] 2025-03-27 11:42:20 - Processing 1 files
+[27-Mar-2025 11:42:20 Asia/Manila] 2025-03-27 11:42:20 - PHP WARNING: Undefined variable $db in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:20 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:20 Asia/Manila] 2025-03-27 11:42:20 - FATAL ERROR: Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:20 Asia/Manila] 2025-03-27 11:42:20 - Sending response - {"success":false,"message":"A fatal error occurred on the server","error":"Uncaught Error: Call to a member function beginTransaction() on null in C:\\Users\\ASUS\\Documents\\GitHub\\ybc-ojts-2025\\assets\\controllers\\products\\upload_product_images.php:66\nStack trace:\n#0 {main}\n  thrown","errorCode":1}
+[27-Mar-2025 11:42:21 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 11:42:21 Asia/Manila] 2025-03-27 11:42:21 - Upload request started
+[27-Mar-2025 11:42:21 Asia/Manila] 2025-03-27 11:42:21 - Processing upload for product ID: 1
+[27-Mar-2025 11:42:21 Asia/Manila] 2025-03-27 11:42:21 - Processing 1 files
+[27-Mar-2025 11:42:21 Asia/Manila] 2025-03-27 11:42:21 - PHP WARNING: Undefined variable $db in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:21 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:21 Asia/Manila] 2025-03-27 11:42:21 - FATAL ERROR: Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:21 Asia/Manila] 2025-03-27 11:42:21 - Sending response - {"success":false,"message":"A fatal error occurred on the server","error":"Uncaught Error: Call to a member function beginTransaction() on null in C:\\Users\\ASUS\\Documents\\GitHub\\ybc-ojts-2025\\assets\\controllers\\products\\upload_product_images.php:66\nStack trace:\n#0 {main}\n  thrown","errorCode":1}
+[27-Mar-2025 11:42:22 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - Upload request started
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - Processing upload for product ID: 1
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - Processing 1 files
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - PHP WARNING: Undefined variable $db in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:22 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - FATAL ERROR: Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - Sending response - {"success":false,"message":"A fatal error occurred on the server","error":"Uncaught Error: Call to a member function beginTransaction() on null in C:\\Users\\ASUS\\Documents\\GitHub\\ybc-ojts-2025\\assets\\controllers\\products\\upload_product_images.php:66\nStack trace:\n#0 {main}\n  thrown","errorCode":1}
+[27-Mar-2025 11:42:22 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - Upload request started
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - Processing upload for product ID: 1
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - Processing 1 files
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - PHP WARNING: Undefined variable $db in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:22 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - FATAL ERROR: Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:42:22 Asia/Manila] 2025-03-27 11:42:22 - Sending response - {"success":false,"message":"A fatal error occurred on the server","error":"Uncaught Error: Call to a member function beginTransaction() on null in C:\\Users\\ASUS\\Documents\\GitHub\\ybc-ojts-2025\\assets\\controllers\\products\\upload_product_images.php:66\nStack trace:\n#0 {main}\n  thrown","errorCode":1}
+[27-Mar-2025 11:44:04 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 11:44:04 Asia/Manila] 2025-03-27 11:44:04 - Upload request started
+[27-Mar-2025 11:44:04 Asia/Manila] 2025-03-27 11:44:04 - Processing upload for product ID: 1
+[27-Mar-2025 11:44:04 Asia/Manila] 2025-03-27 11:44:04 - Processing 1 files
+[27-Mar-2025 11:44:04 Asia/Manila] 2025-03-27 11:44:04 - PHP WARNING: Undefined variable $db in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:44:04 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:44:04 Asia/Manila] 2025-03-27 11:44:04 - FATAL ERROR: Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 66
+[27-Mar-2025 11:44:04 Asia/Manila] 2025-03-27 11:44:04 - Sending response - {"success":false,"message":"A fatal error occurred on the server","error":"Uncaught Error: Call to a member function beginTransaction() on null in C:\\Users\\ASUS\\Documents\\GitHub\\ybc-ojts-2025\\assets\\controllers\\products\\upload_product_images.php:66\nStack trace:\n#0 {main}\n  thrown","errorCode":1}
+[27-Mar-2025 11:49:23 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 11:49:23 Asia/Manila] 2025-03-27 11:49:23 - Upload request started
+[27-Mar-2025 11:49:23 Asia/Manila] 2025-03-27 11:49:23 - Processing upload for product ID: 1
+[27-Mar-2025 11:49:23 Asia/Manila] 2025-03-27 11:49:23 - Processing 4 files
+[27-Mar-2025 11:49:23 Asia/Manila] 2025-03-27 11:49:23 - PHP WARNING: Undefined variable $db in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 102
+[27-Mar-2025 11:49:23 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 102
+[27-Mar-2025 11:49:23 Asia/Manila] 2025-03-27 11:49:23 - FATAL ERROR: Uncaught Error: Call to a member function beginTransaction() on null in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 102
+[27-Mar-2025 11:49:23 Asia/Manila] 2025-03-27 11:49:23 - Sending response - {"success":false,"message":"A fatal error occurred on the server","error":"Uncaught Error: Call to a member function beginTransaction() on null in C:\\Users\\ASUS\\Documents\\GitHub\\ybc-ojts-2025\\assets\\controllers\\products\\upload_product_images.php:102\nStack trace:\n#0 {main}\n  thrown","errorCode":1}
+[27-Mar-2025 11:54:55 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Upload request started
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Processing upload for product ID: 158
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Processing 1 files
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Creating upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Creating thumbnail directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/thumbnails/
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Current image count: 0
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Processing file: GRAY_SUIT_(MARTIN)..jpeg, Type: image/jpeg, Size: 585546 bytes
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4cc0fc138f6445840.jpeg
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4cc0fc138f6445840.jpeg
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Generating thumbnail at: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/thumbnails/pic_67e4cc0fc138f6445840.jpeg
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Generating thumbnail from C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4cc0fc138f6445840.jpeg to C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/thumbnails/pic_67e4cc0fc138f6445840.jpeg (200 x 200)
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - Source image dimensions: 1743x2045, type: image/jpeg
+[27-Mar-2025 11:54:55 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:360
+Stack trace:
+#0 C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php(184): generate_thumbnail('C:\\Users\\ASUS\\D...', 'C:\\Users\\ASUS\\D...', 200, 200)
+#1 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 360
+[27-Mar-2025 11:54:55 Asia/Manila] 2025-03-27 11:54:55 - FATAL ERROR: Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:360
+Stack trace:
+#0 C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php(184): generate_thumbnail('C:\\Users\\ASUS\\D...', 'C:\\Users\\ASUS\\D...', 200, 200)
+#1 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 360
+[27-Mar-2025 11:54:56 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Upload request started
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Processing upload for product ID: 158
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Processing 1 files
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Current image count: 0
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Processing file: GRAY_SUIT_(MARTIN)..jpeg, Type: image/jpeg, Size: 585546 bytes
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4cc10b8ce45302867.jpeg
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4cc10b8ce45302867.jpeg
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Generating thumbnail at: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/thumbnails/pic_67e4cc10b8ce45302867.jpeg
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Generating thumbnail from C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4cc10b8ce45302867.jpeg to C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/thumbnails/pic_67e4cc10b8ce45302867.jpeg (200 x 200)
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - Source image dimensions: 1743x2045, type: image/jpeg
+[27-Mar-2025 11:54:56 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:360
+Stack trace:
+#0 C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php(184): generate_thumbnail('C:\\Users\\ASUS\\D...', 'C:\\Users\\ASUS\\D...', 200, 200)
+#1 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 360
+[27-Mar-2025 11:54:56 Asia/Manila] 2025-03-27 11:54:56 - FATAL ERROR: Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php:360
+Stack trace:
+#0 C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php(184): generate_thumbnail('C:\\Users\\ASUS\\D...', 'C:\\Users\\ASUS\\D...', 200, 200)
+#1 {main}
+  thrown in C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products\upload_product_images.php on line 360
+[27-Mar-2025 12:00:32 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 12:00:32 Asia/Manila] 2025-03-27 12:00:32 - Upload request started
+[27-Mar-2025 12:00:32 Asia/Manila] 2025-03-27 12:00:32 - GD library is not installed or enabled
+[27-Mar-2025 12:00:32 Asia/Manila] 2025-03-27 12:00:32 - Sending response - {"success":false,"message":"Image processing library (GD) is not installed on the server. Contact your administrator."}
+[27-Mar-2025 12:00:33 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 12:00:33 Asia/Manila] 2025-03-27 12:00:33 - Upload request started
+[27-Mar-2025 12:00:33 Asia/Manila] 2025-03-27 12:00:33 - GD library is not installed or enabled
+[27-Mar-2025 12:00:33 Asia/Manila] 2025-03-27 12:00:33 - Sending response - {"success":false,"message":"Image processing library (GD) is not installed on the server. Contact your administrator."}
+[27-Mar-2025 12:06:02 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Upload request started
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Processing upload for product ID: 158
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Processing 3 files
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Current image count: 0
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Processing file: GRAY_SUIT_(MARTIN)..jpeg, Type: image/jpeg, Size: 585546 bytes
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4ceaa9987a3816706.jpeg
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4ceaa9987a3816706.jpeg
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Inserting into database: pictures/products/158/pic_67e4ceaa9987a3816706.jpeg, isPrimary: 1
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Successfully processed: GRAY_SUIT_(MARTIN)..jpeg
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Processing file: DONA_PIDOR_BG_#699.jpeg, Type: image/jpeg, Size: 213787 bytes
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4ceaab6a991895346.jpeg
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4ceaab6a991895346.jpeg
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Inserting into database: pictures/products/158/pic_67e4ceaab6a991895346.jpeg, isPrimary: 0
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Successfully processed: DONA_PIDOR_BG_#699.jpeg
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Processing file: JANICE_BG_#698.jpeg, Type: image/jpeg, Size: 124744 bytes
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4ceaad32022914784.jpeg
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4ceaad32022914784.jpeg
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Inserting into database: pictures/products/158/pic_67e4ceaad32022914784.jpeg, isPrimary: 0
+[27-Mar-2025 12:06:02 Asia/Manila] 2025-03-27 12:06:02 - Successfully processed: JANICE_BG_#698.jpeg
+[27-Mar-2025 12:06:03 Asia/Manila] 2025-03-27 12:06:03 - Transaction committed for 3 files
+[27-Mar-2025 12:06:03 Asia/Manila] 2025-03-27 12:06:03 - Complete success: All 3 files uploaded
+[27-Mar-2025 12:06:03 Asia/Manila] 2025-03-27 12:06:03 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"GRAY_SUIT_(MARTIN)..jpeg","saved_name":"pic_67e4ceaa9987a3816706.jpeg","path":"pictures\/products\/158\/pic_67e4ceaa9987a3816706.jpeg","is_primary":1,"size":585546},{"original_name":"DONA_PIDOR_BG_#699.jpeg","saved_name":"pic_67e4ceaab6a991895346.jpeg","path":"pictures\/products\/158\/pic_67e4ceaab6a991895346.jpeg","is_primary":0,"size":213787},{"original_name":"JANICE_BG_#698.jpeg","saved_name":"pic_67e4ceaad32022914784.jpeg","path":"pictures\/products\/158\/pic_67e4ceaad32022914784.jpeg","is_primary":0,"size":124744}]}
+[27-Mar-2025 12:11:04 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 12:11:04 Asia/Manila] 2025-03-27 12:11:04 - Upload request started
+[27-Mar-2025 12:11:04 Asia/Manila] 2025-03-27 12:11:04 - Processing upload for product ID: 158
+[27-Mar-2025 12:11:04 Asia/Manila] 2025-03-27 12:11:04 - Processing 5 files
+[27-Mar-2025 12:11:04 Asia/Manila] 2025-03-27 12:11:04 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures
+[27-Mar-2025 12:11:04 Asia/Manila] 2025-03-27 12:11:04 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Current image count: 0
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Processing file: GRAY_SUIT_(MARTIN)..jpeg, Type: image/jpeg, Size: 585546 bytes
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd915ad86478309.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd915ad86478309.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Inserting into database: pictures/products/158/pic_67e4cfd915ad86478309.jpeg, isPrimary: 1
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Successfully processed: GRAY_SUIT_(MARTIN)..jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Processing file: DONA_PIDOR_BG_#699.jpeg, Type: image/jpeg, Size: 213787 bytes
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd9339711883632.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd9339711883632.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Inserting into database: pictures/products/158/pic_67e4cfd9339711883632.jpeg, isPrimary: 0
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Successfully processed: DONA_PIDOR_BG_#699.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Processing file: JANICE_BG_#698.jpeg, Type: image/jpeg, Size: 124744 bytes
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd9526384294706.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd9526384294706.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Inserting into database: pictures/products/158/pic_67e4cfd9526384294706.jpeg, isPrimary: 0
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Successfully processed: JANICE_BG_#698.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Processing file: JENNY MARIE (BG000616).jpg, Type: image/jpeg, Size: 162830 bytes
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd97066e1465242.jpg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd97066e1465242.jpg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Inserting into database: pictures/products/158/pic_67e4cfd97066e1465242.jpg, isPrimary: 0
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Successfully processed: JENNY MARIE (BG000616).jpg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Processing file: JESSICA_BG_#690.jpeg, Type: image/jpeg, Size: 113466 bytes
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd98e8aa8452159.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../picturespic_67e4cfd98e8aa8452159.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Inserting into database: pictures/products/158/pic_67e4cfd98e8aa8452159.jpeg, isPrimary: 0
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Successfully processed: JESSICA_BG_#690.jpeg
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Transaction committed for 5 files
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Complete success: All 5 files uploaded
+[27-Mar-2025 12:11:05 Asia/Manila] 2025-03-27 12:11:05 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"GRAY_SUIT_(MARTIN)..jpeg","saved_name":"pic_67e4cfd915ad86478309.jpeg","path":"pictures\/products\/158\/pic_67e4cfd915ad86478309.jpeg","is_primary":1,"size":585546},{"original_name":"DONA_PIDOR_BG_#699.jpeg","saved_name":"pic_67e4cfd9339711883632.jpeg","path":"pictures\/products\/158\/pic_67e4cfd9339711883632.jpeg","is_primary":0,"size":213787},{"original_name":"JANICE_BG_#698.jpeg","saved_name":"pic_67e4cfd9526384294706.jpeg","path":"pictures\/products\/158\/pic_67e4cfd9526384294706.jpeg","is_primary":0,"size":124744},{"original_name":"JENNY MARIE (BG000616).jpg","saved_name":"pic_67e4cfd97066e1465242.jpg","path":"pictures\/products\/158\/pic_67e4cfd97066e1465242.jpg","is_primary":0,"size":162830},{"original_name":"JESSICA_BG_#690.jpeg","saved_name":"pic_67e4cfd98e8aa8452159.jpeg","path":"pictures\/products\/158\/pic_67e4cfd98e8aa8452159.jpeg","is_primary":0,"size":113466}]}
+[27-Mar-2025 12:13:32 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Upload request started
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Processing upload for product ID: 158
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Processing 3 files
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Creating upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Current image count: 0
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Processing file: JANICE_BG_#698.jpeg, Type: image/jpeg, Size: 124744 bytes
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4d06c985c38726142.jpeg
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4d06c985c38726142.jpeg
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Inserting into database: pictures/products/158/pic_67e4d06c985c38726142.jpeg, isPrimary: 1
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Successfully processed: JANICE_BG_#698.jpeg
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Processing file: JENNY MARIE (BG000616).jpg, Type: image/jpeg, Size: 162830 bytes
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4d06cb61581712436.jpg
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4d06cb61581712436.jpg
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Inserting into database: pictures/products/158/pic_67e4d06cb61581712436.jpg, isPrimary: 0
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Successfully processed: JENNY MARIE (BG000616).jpg
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Processing file: JESSICA_BG_#690.jpeg, Type: image/jpeg, Size: 113466 bytes
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4d06cd31ce5699895.jpeg
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/158/pic_67e4d06cd31ce5699895.jpeg
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Inserting into database: pictures/products/158/pic_67e4d06cd31ce5699895.jpeg, isPrimary: 0
+[27-Mar-2025 12:13:32 Asia/Manila] 2025-03-27 12:13:32 - Successfully processed: JESSICA_BG_#690.jpeg
+[27-Mar-2025 12:13:33 Asia/Manila] 2025-03-27 12:13:33 - Transaction committed for 3 files
+[27-Mar-2025 12:13:33 Asia/Manila] 2025-03-27 12:13:33 - Complete success: All 3 files uploaded
+[27-Mar-2025 12:13:33 Asia/Manila] 2025-03-27 12:13:33 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"JANICE_BG_#698.jpeg","saved_name":"pic_67e4d06c985c38726142.jpeg","path":"pictures\/products\/158\/pic_67e4d06c985c38726142.jpeg","is_primary":1,"size":124744},{"original_name":"JENNY MARIE (BG000616).jpg","saved_name":"pic_67e4d06cb61581712436.jpg","path":"pictures\/products\/158\/pic_67e4d06cb61581712436.jpg","is_primary":0,"size":162830},{"original_name":"JESSICA_BG_#690.jpeg","saved_name":"pic_67e4d06cd31ce5699895.jpeg","path":"pictures\/products\/158\/pic_67e4d06cd31ce5699895.jpeg","is_primary":0,"size":113466}]}
+[27-Mar-2025 12:52:47 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Upload request started
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Processing upload for product ID: 1
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Processing 1 files
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Creating upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Current image count: 1
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Processing file: JENNY MARIE (BG000616).jpg, Type: image/jpeg, Size: 162830 bytes
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4d99f6987b2078197.jpg
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4d99f6987b2078197.jpg
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Inserting into database: pictures/products/1/pic_67e4d99f6987b2078197.jpg, isPrimary: 0
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Successfully processed: JENNY MARIE (BG000616).jpg
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Transaction committed for 1 files
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Complete success: All 1 files uploaded
+[27-Mar-2025 12:52:47 Asia/Manila] 2025-03-27 12:52:47 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"JENNY MARIE (BG000616).jpg","saved_name":"pic_67e4d99f6987b2078197.jpg","path":"pictures\/products\/1\/pic_67e4d99f6987b2078197.jpg","is_primary":0,"size":162830}]}
+[27-Mar-2025 12:53:16 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 12:53:16 Asia/Manila] 2025-03-27 12:53:16 - Upload request started
+[27-Mar-2025 12:53:16 Asia/Manila] 2025-03-27 12:53:16 - Processing upload for product ID: 1
+[27-Mar-2025 12:53:16 Asia/Manila] 2025-03-27 12:53:16 - Processing 1 files
+[27-Mar-2025 12:53:16 Asia/Manila] 2025-03-27 12:53:16 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 12:53:16 Asia/Manila] 2025-03-27 12:53:16 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/
+[27-Mar-2025 12:53:17 Asia/Manila] 2025-03-27 12:53:17 - Current image count: 2
+[27-Mar-2025 12:53:17 Asia/Manila] 2025-03-27 12:53:17 - Processing file: DONA_PIDOR_BG_#699.jpeg, Type: image/jpeg, Size: 213787 bytes
+[27-Mar-2025 12:53:17 Asia/Manila] 2025-03-27 12:53:17 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4d9bd138fa5191393.jpeg
+[27-Mar-2025 12:53:17 Asia/Manila] 2025-03-27 12:53:17 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4d9bd138fa5191393.jpeg
+[27-Mar-2025 12:53:17 Asia/Manila] 2025-03-27 12:53:17 - Inserting into database: pictures/products/1/pic_67e4d9bd138fa5191393.jpeg, isPrimary: 0
+[27-Mar-2025 12:53:17 Asia/Manila] 2025-03-27 12:53:17 - Successfully processed: DONA_PIDOR_BG_#699.jpeg
+[27-Mar-2025 12:53:17 Asia/Manila] 2025-03-27 12:53:17 - Transaction committed for 1 files
+[27-Mar-2025 12:53:17 Asia/Manila] 2025-03-27 12:53:17 - Complete success: All 1 files uploaded
+[27-Mar-2025 12:53:17 Asia/Manila] 2025-03-27 12:53:17 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"DONA_PIDOR_BG_#699.jpeg","saved_name":"pic_67e4d9bd138fa5191393.jpeg","path":"pictures\/products\/1\/pic_67e4d9bd138fa5191393.jpeg","is_primary":0,"size":213787}]}
+[27-Mar-2025 13:04:00 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Upload request started
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Processing upload for product ID: 1
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Processing 1 files
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Current image count: 1
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Processing file: DONA_PIDOR_BG_#699.jpeg, Type: image/jpeg, Size: 213787 bytes
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc40b77a57026466.jpeg
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc40b77a57026466.jpeg
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Inserting into database: pictures/products/1/pic_67e4dc40b77a57026466.jpeg, isPrimary: 0
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Successfully processed: DONA_PIDOR_BG_#699.jpeg
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Transaction committed for 1 files
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Complete success: All 1 files uploaded
+[27-Mar-2025 13:04:00 Asia/Manila] 2025-03-27 13:04:00 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"DONA_PIDOR_BG_#699.jpeg","saved_name":"pic_67e4dc40b77a57026466.jpeg","path":"pictures\/products\/1\/pic_67e4dc40b77a57026466.jpeg","is_primary":0,"size":213787}]}
+[27-Mar-2025 13:04:05 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 13:04:05 Asia/Manila] 2025-03-27 13:04:05 - Upload request started
+[27-Mar-2025 13:04:05 Asia/Manila] 2025-03-27 13:04:05 - Processing upload for product ID: 1
+[27-Mar-2025 13:04:05 Asia/Manila] 2025-03-27 13:04:05 - Processing 1 files
+[27-Mar-2025 13:04:05 Asia/Manila] 2025-03-27 13:04:05 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 13:04:05 Asia/Manila] 2025-03-27 13:04:05 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/
+[27-Mar-2025 13:04:06 Asia/Manila] 2025-03-27 13:04:06 - Current image count: 2
+[27-Mar-2025 13:04:06 Asia/Manila] 2025-03-27 13:04:06 - Processing file: DONA_PIDOR_BG_#699.jpeg, Type: image/jpeg, Size: 213787 bytes
+[27-Mar-2025 13:04:06 Asia/Manila] 2025-03-27 13:04:06 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc462974c8712202.jpeg
+[27-Mar-2025 13:04:06 Asia/Manila] 2025-03-27 13:04:06 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc462974c8712202.jpeg
+[27-Mar-2025 13:04:06 Asia/Manila] 2025-03-27 13:04:06 - Inserting into database: pictures/products/1/pic_67e4dc462974c8712202.jpeg, isPrimary: 0
+[27-Mar-2025 13:04:06 Asia/Manila] 2025-03-27 13:04:06 - Successfully processed: DONA_PIDOR_BG_#699.jpeg
+[27-Mar-2025 13:04:06 Asia/Manila] 2025-03-27 13:04:06 - Transaction committed for 1 files
+[27-Mar-2025 13:04:06 Asia/Manila] 2025-03-27 13:04:06 - Complete success: All 1 files uploaded
+[27-Mar-2025 13:04:06 Asia/Manila] 2025-03-27 13:04:06 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"DONA_PIDOR_BG_#699.jpeg","saved_name":"pic_67e4dc462974c8712202.jpeg","path":"pictures\/products\/1\/pic_67e4dc462974c8712202.jpeg","is_primary":0,"size":213787}]}
+[27-Mar-2025 13:04:48 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 13:04:48 Asia/Manila] 2025-03-27 13:04:48 - Upload request started
+[27-Mar-2025 13:04:48 Asia/Manila] 2025-03-27 13:04:48 - Processing upload for product ID: 1
+[27-Mar-2025 13:04:48 Asia/Manila] 2025-03-27 13:04:48 - Processing 1 files
+[27-Mar-2025 13:04:48 Asia/Manila] 2025-03-27 13:04:48 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 13:04:48 Asia/Manila] 2025-03-27 13:04:48 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/
+[27-Mar-2025 13:04:49 Asia/Manila] 2025-03-27 13:04:49 - Current image count: 1
+[27-Mar-2025 13:04:49 Asia/Manila] 2025-03-27 13:04:49 - Processing file: JENNY MARIE (BG000616).jpg, Type: image/jpeg, Size: 162830 bytes
+[27-Mar-2025 13:04:49 Asia/Manila] 2025-03-27 13:04:49 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc7111aaf2844463.jpg
+[27-Mar-2025 13:04:49 Asia/Manila] 2025-03-27 13:04:49 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc7111aaf2844463.jpg
+[27-Mar-2025 13:04:49 Asia/Manila] 2025-03-27 13:04:49 - Inserting into database: pictures/products/1/pic_67e4dc7111aaf2844463.jpg, isPrimary: 0
+[27-Mar-2025 13:04:49 Asia/Manila] 2025-03-27 13:04:49 - Successfully processed: JENNY MARIE (BG000616).jpg
+[27-Mar-2025 13:04:49 Asia/Manila] 2025-03-27 13:04:49 - Transaction committed for 1 files
+[27-Mar-2025 13:04:49 Asia/Manila] 2025-03-27 13:04:49 - Complete success: All 1 files uploaded
+[27-Mar-2025 13:04:49 Asia/Manila] 2025-03-27 13:04:49 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"JENNY MARIE (BG000616).jpg","saved_name":"pic_67e4dc7111aaf2844463.jpg","path":"pictures\/products\/1\/pic_67e4dc7111aaf2844463.jpg","is_primary":0,"size":162830}]}
+[27-Mar-2025 13:04:52 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 13:04:52 Asia/Manila] 2025-03-27 13:04:52 - Upload request started
+[27-Mar-2025 13:04:52 Asia/Manila] 2025-03-27 13:04:52 - Processing upload for product ID: 1
+[27-Mar-2025 13:04:52 Asia/Manila] 2025-03-27 13:04:52 - Processing 1 files
+[27-Mar-2025 13:04:52 Asia/Manila] 2025-03-27 13:04:52 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 13:04:52 Asia/Manila] 2025-03-27 13:04:52 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Current image count: 2
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Processing file: JENNY MARIE (BG000616).jpg, Type: image/jpeg, Size: 162830 bytes
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc750134f9521141.jpg
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc750134f9521141.jpg
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Inserting into database: pictures/products/1/pic_67e4dc750134f9521141.jpg, isPrimary: 0
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Successfully processed: JENNY MARIE (BG000616).jpg
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Transaction committed for 1 files
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Complete success: All 1 files uploaded
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"JENNY MARIE (BG000616).jpg","saved_name":"pic_67e4dc750134f9521141.jpg","path":"pictures\/products\/1\/pic_67e4dc750134f9521141.jpg","is_primary":0,"size":162830}]}
+[27-Mar-2025 13:04:53 Asia/Manila] Database connection established and test query successful
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Upload request started
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Processing upload for product ID: 1
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Processing 1 files
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Base upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/
+[27-Mar-2025 13:04:53 Asia/Manila] 2025-03-27 13:04:53 - Product upload directory: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/
+[27-Mar-2025 13:04:54 Asia/Manila] 2025-03-27 13:04:54 - Current image count: 3
+[27-Mar-2025 13:04:54 Asia/Manila] 2025-03-27 13:04:54 - Processing file: JENNY MARIE (BG000616).jpg, Type: image/jpeg, Size: 162830 bytes
+[27-Mar-2025 13:04:54 Asia/Manila] 2025-03-27 13:04:54 - Moving uploaded file to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc7609f241100644.jpg
+[27-Mar-2025 13:04:54 Asia/Manila] 2025-03-27 13:04:54 - File successfully moved to: C:\Users\ASUS\Documents\GitHub\ybc-ojts-2025\assets\controllers\products/../../../pictures/products/1/pic_67e4dc7609f241100644.jpg
+[27-Mar-2025 13:04:54 Asia/Manila] 2025-03-27 13:04:54 - Inserting into database: pictures/products/1/pic_67e4dc7609f241100644.jpg, isPrimary: 0
+[27-Mar-2025 13:04:54 Asia/Manila] 2025-03-27 13:04:54 - Successfully processed: JENNY MARIE (BG000616).jpg
+[27-Mar-2025 13:04:54 Asia/Manila] 2025-03-27 13:04:54 - Transaction committed for 1 files
+[27-Mar-2025 13:04:54 Asia/Manila] 2025-03-27 13:04:54 - Complete success: All 1 files uploaded
+[27-Mar-2025 13:04:54 Asia/Manila] 2025-03-27 13:04:54 - Sending response - {"success":true,"message":"All files uploaded successfully","uploaded":[{"original_name":"JENNY MARIE (BG000616).jpg","saved_name":"pic_67e4dc7609f241100644.jpg","path":"pictures\/products\/1\/pic_67e4dc7609f241100644.jpg","is_primary":0,"size":162830}]}

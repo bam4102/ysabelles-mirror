@@ -1,0 +1,501 @@
+/* Branch Requests Page Styling */
+body {
+    background-color: #FEF7F2 !important;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+/* Title container and tabs styling */
+.title {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.title-container {
+    background-color: #FC4A49;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Pills Styling */
+.title-container .nav-pills {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 4px;
+}
+
+.title-container .nav-pills .nav-link {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.title-container .nav-pills .nav-link:hover {
+    background: rgba(252, 74, 73, 0.3);
+    transform: translateY(-1px);
+}
+
+.title-container .nav-pills .nav-link.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: #FC4A49;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Card styling */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border: none;
+    overflow: hidden;
+}
+
+h5 {
+    margin: 0 !important;
+    font-weight: 600 !important;
+    font-size: 1.25rem !important;
+}
+
+.card-header {
+    background-color: #FC4A49 !important;
+    color: white !important;
+    padding: 15px 20px !important;
+    font-weight: bold !important;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #FC4A49;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(252, 74, 73, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-danger {
+    background-color: #FC4A49 !important;
+    color: white !important;
+}
+
+.btn-danger:hover {
+    background-color: #e73f3e !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(252, 74, 73, 0.2) !important;
+}
+
+.btn-secondary {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.btn-secondary:hover {
+    background-color: #e1e1e1;
+    transform: translateY(-2px);
+}
+
+.btn-info {
+    background-color: #0dcaf0;
+    color: white;
+}
+
+/* Filter Container */
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-group label {
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #444;
+}
+
+.filter-group select,
+.filter-group input {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* DataTables customization */
+table.dataTable {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin-top: 15px !important;
+}
+
+table.dataTable th,
+table.dataTable td {
+    padding: 12px 15px !important;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+table.dataTable thead th {
+    background-color: #f7f7f7;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 2px solid #FC4A49 !important;
+}
+
+table.dataTable tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_length {
+    margin-bottom: 15px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+/* Status styling */
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.status-pending {
+    background-color: #FFD700;
+    color: #333;
+}
+
+.status-approved {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.status-declined, .status-canceled {
+    background-color: #f44336;
+    color: white;
+}
+
+.status-completed {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Action buttons */
+.action-btn {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s;
+}
+
+.view-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.approve-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.decline-btn, .cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.complete-btn {
+    background-color: #FF9800;
+    color: white;
+}
+
+.action-btn:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Updated request details styling */
+.request-details {
+    margin-bottom: 0;
+}
+
+.detail-row {
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.detail-label {
+    flex: 0 0 150px;
+    font-weight: 600;
+    color: #555;
+    padding-right: 15px;
+}
+
+.detail-value {
+    flex: 1;
+}
+
+.products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.products-table th,
+.products-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.products-table th {
+    background-color: #f7f7f7;
+    font-weight: 600;
+}
+
+/* Product selection styling */
+#productsTableContainer {
+    max-height: 500px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+#productsTable {
+    width: 100%;
+}
+
+#productsTable th, 
+#productsTable td {
+    vertical-align: middle;
+    padding: 10px 12px;
+}
+
+#productSearchInput {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/* Tab content styling */
+.tab-content {
+    padding-top: 10px;
+}
+
+.tab-pane {
+    animation: fadeEffect 0.5s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Selected products indicator */
+#selectedProductsCount {
+    font-weight: bold;
+    color: #FC4A49;
+    padding: 6px 0;
+}
+
+/* Checkbox styling */
+.product-checkbox {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    accent-color: #FC4A49;
+}
+
+#selectAllProducts {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    accent-color: #FC4A49;
+}
+
+/* Modal list styling */
+#selectedProductsList {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-left: 20px;
+    margin: 0;
+}
+
+#selectedProductsList li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    list-style-type: disc;
+}
+
+/* Damaged product badge */
+.damaged-badge {
+    background-color: #f44336;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Damaged product row */
+tr.damaged-product {
+    background-color: #fff0f0 !important;
+}
+
+tr.damaged-product td {
+    color: #666;
+}
+
+/* Tooltip for damage description */
+.damage-tooltip {
+    position: relative;
+    cursor: help;
+}
+
+.damage-tooltip .tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.damage-tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+
+.damage-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Table responsive adjustments */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.modal-header {
+    background-color: #FC4A49 !important;
+    color: white !important;
+}
+

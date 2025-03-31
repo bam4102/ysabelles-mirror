@@ -1,0 +1,458 @@
+:root {
+    --primary: #FC4A49;
+    --secondary: #fd7271;
+    --accent: #FC4A49;
+    --light: #ecf0f1;
+    --success: #2ecc71;
+    --warning: #f1c40f;
+    --danger: #e74c3c;
+}
+
+body {
+    background-color: #FEF7F2;
+    color: var(--primary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 1.5rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    background-color: #FC4A49;
+    color: white;
+    border-radius: 10px 10px 0 0 !important;
+    padding: 1rem 1.5rem;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid var(--light);
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: var(--secondary);
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s;
+}
+
+.nav-tabs .nav-link.active {
+    color: #FC4A49;
+    border-bottom: 3px solid #FC4A49;
+    background: none;
+}
+
+.table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #FC4A49;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+.stats-card {
+    background: linear-gradient(135deg, #FC4A49, #fd7271);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.stats-card h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.stats-card p {
+    opacity: 0.8;
+    margin: 0;
+}
+
+.indent-1 {
+    margin-left: 1.5rem;
+}
+
+.indent-2 {
+    margin-left: 3rem;
+}
+
+.total-line {
+    font-weight: bold;
+    border-top: 2px solid var(--primary);
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.date-picker {
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--light);
+}
+
+.btn-primary {
+    background-color: #FC4A49;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #fd7271;
+    transform: translateY(-2px);
+}
+
+.animate-fade {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .nav-tabs .nav-link {
+        padding: 0.75rem 1rem;
+    }
+
+    .indent-1 {
+        margin-left: 1rem;
+    }
+
+    .indent-2 {
+        margin-left: 2rem;
+    }
+}
+
+.amount-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.amount-value {
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+    margin-bottom: 0;
+    /* Adjusted margin */
+}
+
+/* Remove the old float-right style if it exists */
+
+.reports-dashboard-header {
+    background-color: #FC4A49;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.reports-dashboard-header .form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    min-width: 200px;
+}
+
+.reports-dashboard-header .btn-light {
+    background: white;
+    border: none;
+    color: #FC4A49;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.reports-dashboard-header .btn-light:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+}
+
+.form-control {
+    width: 0%;
+}
+
+/* Title container styling like transmittal page */
+.title-container {
+    background-color: #FC4A49;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Ensure the form controls inside title container are properly styled */
+.title-container form {
+    margin-bottom: 0;
+}
+
+.title-container .form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    min-width: 150px;
+    color: #333;
+}
+
+.title-container .btn-light {
+    background: white;
+    border: none;
+    color: #FC4A49;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.title-container .btn-light:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: translateY(-2px);
+}
+
+/* Remove any duplicate date-picker styles */
+.title-container .date-picker {
+    border: none;
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 992px) {
+    .title-container .mt-3 form {
+        flex-wrap: wrap;
+    }
+
+    .title-container .form-control,
+    .title-container .btn-light {
+        flex-grow: 1;
+    }
+}
+
+/* Navigation Pills Styling within title container */
+.title-container .nav-pills {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 4px;
+}
+
+.title-container .nav-pills .nav-link {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.title-container .nav-pills .nav-link:hover {
+    background: rgba(252, 74, 73, 0.3);
+    transform: translateY(-1px);
+}
+
+.title-container .nav-pills .nav-link.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: #FC4A49;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Updated form controls for bottom placement */
+.title-container .form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    min-width: 150px;
+}
+
+.title-container .btn-light {
+    background: white;
+    border: none;
+    color: #FC4A49;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.title-container .btn-light:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 992px) {
+    .title-container .d-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .title-container .nav-pills {
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .title-container form {
+        width: 100%;
+    }
+}
+
+/* Navigation Pills Styling */
+.nav-pills {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 4px;
+}
+
+.nav-pills .nav-link {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.nav-pills .nav-link:hover {
+    background: rgba(252, 74, 73, 0.3);
+    transform: translateY(-1px);
+}
+
+.nav-pills .nav-link.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: #FC4A49;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Update existing form controls inside title container */
+.title-container .form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    min-width: 150px;
+}
+
+.title-container .btn-light {
+    background: white;
+    border: none;
+    color: #FC4A49;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.title-container .btn-light:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+}
+
+/* Date Filter Container styling for outside placement */
+.date-filter-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.date-filter-container form {
+    margin-bottom: 0;
+}
+
+.date-filter-container .form-control {
+    border: 1px solid #e0e0e0;
+    min-width: 150px;
+    border-radius: 6px;
+}
+
+.date-filter-container .date-picker {
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e0e0e0;
+}
+
+.date-filter-container .btn-primary {
+    background-color: #FC4A49;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.date-filter-container .btn-primary:hover {
+    background-color: #fd7271;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments for filter container */
+@media (max-width: 768px) {
+    .date-filter-container form {
+        flex-wrap: wrap;
+    }
+
+    .date-filter-container .form-control,
+    .date-filter-container .btn-primary {
+        flex-grow: 1;
+        margin-bottom: 4px;
+    }
+}
+
+/* Loading indicator styles */
+.loading-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.loading-indicator .spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+#locationSelect {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#dateSelect {
+    padding-left: 8px;
+    padding-right: 8px;
+}

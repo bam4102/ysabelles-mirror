@@ -1,0 +1,566 @@
+/**
+ * Entourage page styles
+ */
+
+.entourage-products {
+    padding: 20px 0;
+}
+
+.entourage-products h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* Entourage grid layout */
+.entourage-grid {
+    margin-bottom: 30px;
+}
+
+/* Card styling */
+.entourage-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+}
+
+.entourage-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-container {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.card-img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.entourage-card:hover .card-img-container img {
+    transform: scale(1.05);
+}
+
+.entourage-card .card-body {
+    padding: 15px;
+}
+
+.entourage-card .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.entourage-card .card-text {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.entourage-card .card-footer {
+    background-color: transparent;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* Load more button */
+.load-more-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.load-more-btn:hover {
+    background-color: #f8f8f8;
+    border-color: #ccc;
+}
+
+.load-more-btn:focus {
+    outline: none;
+}
+
+.load-more-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Modal styling */
+.modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+
+.modal-title {
+    font-weight: 600;
+    color: #333;
+}
+
+.entourage-images {
+    margin-bottom: 20px;
+}
+
+.entourage-images img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .modal-dialog {
+        margin: 10px;
+    }
+    
+    .entourage-images .col-md-3 {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .entourage-card .card-title {
+        font-size: 1rem;
+    }
+    
+    .entourage-card .card-text {
+        font-size: 0.9rem;
+    }
+    
+    .entourage-products h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Entourage Details Popup Styles - Matching product-details-popup styling */
+#entourage-details-popup.product-details-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+#entourage-details-popup .popup-content {
+    position: relative;
+    background-color: #fff;
+    margin: 5% auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation: popupFadeIn 0.3s ease;
+    overflow: hidden;
+}
+
+@keyframes popupFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#entourage-details-popup .close-popup {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #888;
+    cursor: pointer;
+    z-index: 10;
+    transition: color 0.2s;
+}
+
+#entourage-details-popup .close-popup:hover {
+    color: #e94848;
+}
+
+#entourage-details-popup .popup-container {
+    display: flex;
+    height: 80vh;
+}
+
+#entourage-details-popup .popup-image-container {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#entourage-details-popup .popup-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+#entourage-details-popup .popup-thumbnails {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    gap: 5px;
+    overflow-x: auto;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 50px;
+    scrollbar-width: thin;
+    scrollbar-color: #e94848 #f0f0f0;
+}
+
+#entourage-details-popup .popup-thumbnails::-webkit-scrollbar {
+    height: 4px;
+}
+
+#entourage-details-popup .popup-thumbnails::-webkit-scrollbar-track {
+    background: rgba(240, 240, 240, 0.3);
+    border-radius: 3px;
+}
+
+#entourage-details-popup .popup-thumbnails::-webkit-scrollbar-thumb {
+    background-color: #e94848;
+    border-radius: 3px;
+}
+
+/* Thumbnail styling */
+#entourage-details-popup .popup-thumbnails img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+#entourage-details-popup .popup-thumbnails img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#entourage-details-popup .popup-thumbnails img.active {
+    border-color: #e94848;
+    box-shadow: 0 0 0 2px #e94848;
+}
+
+#entourage-details-popup .popup-details {
+    padding: 0;
+    flex: 1;
+    max-width: 50%;
+    position: relative;
+    overflow-y: auto;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#entourage-details-popup .popup-details h2 {
+    color: #333;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#entourage-details-popup .popup-details-content {
+    flex: 1;
+    margin-bottom: 20px;
+    padding: 30px 30px 10px;
+}
+
+/* Image navigation buttons */
+#entourage-details-popup .image-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#entourage-details-popup .image-nav-btn:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#entourage-details-popup .prev-btn {
+    left: 10px;
+}
+
+#entourage-details-popup .prev-btn:hover {
+    transform: translateY(-50%) translateX(-3px);
+}
+
+#entourage-details-popup .next-btn {
+    right: 10px;
+}
+
+#entourage-details-popup .next-btn:hover {
+    transform: translateY(-50%) translateX(3px);
+}
+
+/* Image counter */
+#entourage-details-popup .image-counter {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+}
+
+/* Product items in entourage popup */
+.entourage-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.product-card:hover .product-image-wrapper img {
+    transform: scale(1.05);
+}
+
+.entourage-product-card {
+    pointer-events: all;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-info h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.product-info .price {
+    color: #e94848;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.product-info .status {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.product-info .status.available {
+    color: #28a745;
+}
+
+.product-info .status.sold {
+    color: #dc3545;
+}
+
+.product-info .status.damaged {
+    color: #ffc107;
+}
+
+/* Product card in selected state */
+.product-card.selected {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border: 2px solid #e94848;
+}
+
+/* Product details in card */
+.product-details {
+    margin-top: 10px;
+    font-size: 0.85em;
+    color: #666;
+}
+
+.product-details span {
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* Loading indicator */
+.loading-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Back button styling */
+#back-to-entourage {
+    display: none;
+    padding: 8px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: all 0.2s;
+}
+
+#back-to-entourage:hover {
+    background-color: #e2e6ea;
+    color: #212529;
+}
+
+/* Media queries to match product-details-popup */
+@media (max-width: 768px) {
+    #entourage-details-popup .popup-container {
+        flex-direction: column;
+    }
+
+    #entourage-details-popup .popup-image-container,
+    #entourage-details-popup .popup-details {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    #entourage-details-popup .popup-image-container {
+        margin-bottom: 30px;
+        align-items: center;
+        height: 400px;
+    }
+    
+    #entourage-details-popup .popup-details {
+        padding: 0;
+        max-height: 50vh;
+    }
+
+    #entourage-details-popup .popup-image {
+        height: 100%;
+        width: 100%;
+        max-height: none;
+    }
+    
+    #entourage-details-popup .popup-details-content {
+        padding: 20px 20px 10px;
+    }
+    
+    .entourage-products-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+@media (max-width: 576px) {
+    #entourage-details-popup .popup-content {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    
+    #entourage-details-popup .popup-container {
+        padding: 15px;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    #entourage-details-popup .popup-image-container {
+        height: 300px;
+    }
+    
+    #entourage-details-popup .popup-details {
+        max-height: none;
+        height: auto;
+        padding: 0;
+    }
+    
+    #entourage-details-popup .popup-image {
+        height: 100%;
+        width: 100%;
+        max-height: none;
+    }
+    
+    #entourage-details-popup .popup-details-content {
+        padding: 15px 15px 10px;
+    }
+} 

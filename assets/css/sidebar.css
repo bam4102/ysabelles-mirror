@@ -1,0 +1,231 @@
+:root {
+    --sidebar-width: 250px;
+    --sidebar-bg: #343a40;
+    --sidebar-hover: #495057;
+    --sidebar-active: #FC4A49;
+    --sidebar-text: #ffffff;
+    --sidebar-transition: all 0.3s ease;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Floating toggle button */
+.floating-toggle {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #FEF7F2;
+    color: #FC4A49;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 1100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.floating-toggle:hover {
+    transform: scale(1.1);
+}
+
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    z-index: 1001; /* Higher than overlay */
+}
+
+.sidebar {
+    width: var(--sidebar-width);
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-text);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    transition: var(--sidebar-transition);
+    z-index: 1001; /* Higher than overlay */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-title {
+    color: var(--sidebar-text);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: auto;
+}
+
+.sidebar-logo {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.sidebar-user {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-username {
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+.sidebar-datetime {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.sidebar-item {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    color: var(--sidebar-text);
+    text-decoration: none;
+    transition: var(--sidebar-transition);
+    font-weight: bold;
+}
+
+.sidebar-link:hover {
+    background-color: var(--sidebar-hover);
+    color: var(--sidebar-text);
+}
+
+.sidebar-link.active {
+    background-color: var(--sidebar-active);
+    color: white;
+}
+
+.sidebar-link i {
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.sidebar-dropdown {
+    position: relative;
+}
+
+.sidebar-dropdown-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-dropdown-menu.show {
+    display: block;
+}
+
+.sidebar-dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 10px 45px;
+    color: var(--sidebar-text);
+    text-decoration: none;
+    transition: var(--sidebar-transition);
+    font-weight: bold;
+}
+
+.sidebar-dropdown-item:hover {
+    background-color: var(--sidebar-hover);
+    color: var(--sidebar-text);
+}
+
+.sidebar-dropdown-item i {
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.sidebar-footer {
+    padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: auto;
+}
+
+.sidebar-logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    color: #FC4A49;
+    border: 1px solid #FC4A49;
+    background: transparent;
+    transition: var(--sidebar-transition);
+    font-weight: bold;
+}
+
+.sidebar-logout:hover {
+    background-color: #FC4A49;
+    color: white;
+}
+
+/* Dark overlay when sidebar is active */
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999; /* Lower than sidebar */
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.sidebar-overlay.active {
+    display: block;
+    opacity: 1;
+} 

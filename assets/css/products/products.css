@@ -1,0 +1,451 @@
+body {
+    background-color: #FEF7F2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-header {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    background-color: #FC4A49;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 24px auto 20px auto;
+    text-align: start;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+h1, h5 {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.filters {
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+}
+
+.filters-header {
+    background-color: #FC4A49;
+    color: white;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.filters-body {
+    padding: 15px;
+}
+
+thead {
+    background-color: #FC4A49;
+    color: white;
+}
+
+#saveProductChanges {
+    background-color: #FC4A49 !important;
+    color: white !important;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.pagination {
+    margin-top: 20px;
+    justify-content: center;
+}
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+th.asc::after {
+    content: " ▲";
+}
+th.desc::after {
+    content: " ▼";
+}
+.modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+.product-thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+.product-thumbnail:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.product-image-container {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.product-image-container img {
+    max-height: 250px;
+    width: auto;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.product-image-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Updated Lightbox styles */
+#imageLightboxModal .modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 3.5rem);
+}
+
+#imageLightboxModal .modal-content {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border: none;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#imageLightboxModal .modal-body {
+    padding: 0;
+    background-color: transparent;
+    text-align: center;
+    max-height: none;
+    overflow: visible;
+}
+
+#lightboxImage {
+    max-height: calc(90vh - 100px); /* 90% of viewport height minus header space */
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+#imageLightboxModal .modal-header {
+    border-bottom: 1px solid #333;
+    padding: 0.5rem 1rem;
+}
+
+#imageLightboxModal .btn-close {
+    color: white;
+    filter: invert(1) brightness(200%);
+}
+
+/* Lightbox navigation controls */
+.lightbox-container {
+    position: relative;
+}
+
+.lightbox-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 50%;
+    line-height: 1;
+    z-index: 10;
+    transition: background-color 0.3s;
+}
+
+.lightbox-nav-btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#prevImage {
+    left: 10px;
+}
+
+#nextImage {
+    right: 10px;
+}
+
+/* Image counter */
+.image-counter {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.875rem;
+}
+
+/* Image thumbnails */
+.image-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-right: auto;
+    max-height: 60px;
+    overflow-y: auto;
+}
+
+.image-thumbnail {
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+    opacity: 0.7;
+}
+
+.image-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-thumbnail:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.image-thumbnail.active {
+    border-color: #0d6efd;
+    opacity: 1;
+}
+
+/* Make the lightbox modal responsive */
+@media (max-width: 768px) {
+    #imageLightboxModal .modal-dialog {
+        max-width: 95%;
+        margin: 0.5rem auto;
+    }
+    
+    #lightboxImage {
+        max-height: calc(90vh - 60px);
+    }
+    
+    .lightbox-nav-btn {
+        font-size: 1rem;
+        padding: 0.3rem 0.5rem;
+    }
+    
+    .image-thumbnails {
+        max-height: 40px;
+    }
+    
+    .image-thumbnail {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Size variations styles */
+.variation-group {
+    background-color: rgba(249, 249, 249, 0.7);
+    border-left: 4px solid #0d6efd;
+}
+
+.variations-container {
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+.variation-heading {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.variation-tip {
+    color: #6c757d;
+    font-style: italic;
+}
+
+.variation-sizes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.variation-size {
+    padding: 4px 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.variation-size::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 110, 253, 0.1);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.variation-size:hover {
+    background-color: #e9ecef;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+}
+
+.variation-size:hover::before {
+    transform: translateX(0);
+}
+
+.variation-size.active {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(13, 110, 253, 0.4);
+}
+
+tr.expanded-row > td {
+    padding: 15px 8px;
+}
+
+.size-badge {
+    display: inline-block;
+    padding: 1px 6px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    margin-left: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .variation-sizes {
+        flex-direction: column;
+    }
+    
+    .variation-size {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Status badges in modal header */
+.product-status-badges {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.product-status-badges .badge {
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+/* Make modal title formatting more flexible */
+#editProductModalLabel {
+    margin-bottom: 0;
+}
+
+/* Action buttons */
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.action-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    color: white;
+}
+
+.action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+
+.action-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-btn {
+    background-color: #007bff;
+}
+
+.edit-btn:hover {
+    background-color: #0069d9;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.sizes-btn {
+    background-color: #6c757d;
+}
+
+.sizes-btn:hover {
+    background-color: #5a6268;
+} 

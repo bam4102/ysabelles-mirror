@@ -1,0 +1,722 @@
+/* YBS Global Styles
+ * This file contains global styles for the YBS application
+ * It standardizes buttons, colors, and other common elements
+ * DO NOT MODIFY UNLESS TOLD TO.
+ */
+
+/* Brand Colors */
+:root {
+    /* Primary Colors */
+    --primary: #FC4A49;
+    --primary-muted: #DE3C3C;
+    --primary-light: #FFC9C9;
+    
+    /* Secondary Colors */
+    --bg-warm: #FEF7F2;
+    --bg-cool: #F5F5F5;
+    --text-dark: #000000;
+    --text-light: #FFFFFF;
+    
+    /* Supporting Colors */
+    --success: #28a745;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --secondary: #6c757d;
+    
+    /* Hover States */
+    --primary-hover: #e63e3d;
+    --primary-muted-hover: #c53535;
+    --primary-light-hover: #ffb5b5;
+    
+    /* Other Variables */
+    --border-radius: 6px;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --box-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.15);
+    --transition: all 0.3s ease;
+}
+
+/* Typography */
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-warm);
+    color: var(--text-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+/* Standard Title Containers */
+.title-container {
+    background-color: var(--primary);
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.title-container h1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    color: var(--text-light);
+    margin: 0;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: var(--border-radius);
+    padding: 8px 16px;
+    font-weight: 500;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-hover);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: var(--box-shadow);
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--text-light);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    color: var(--text-light);
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background-color: var(--secondary);
+    color: var(--text-light);
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    color: var(--text-light);
+}
+
+/* Danger Button */
+.btn-danger {
+    background-color: var(--danger);
+    color: var(--text-light);
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    color: var(--text-light);
+}
+
+/* Warning Button */
+.btn-warning {
+    background-color: var(--warning);
+    color: #212529;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    color: #212529;
+}
+
+/* Info Button */
+.btn-info {
+    background-color: var(--info);
+    color: var(--text-light);
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    color: var(--text-light);
+}
+
+/* Success Button */
+.btn-success {
+    background-color: var(--success);
+    color: var(--text-light);
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    color: var(--text-light);
+}
+
+/* Light Button - for YBS style */
+.btn-ybs-light {
+    background-color: var(--primary-light);
+    color: var(--text-dark);
+}
+
+.btn-ybs-light:hover {
+    background-color: var(--primary-light-hover);
+    color: var(--text-dark);
+}
+
+/* Button Sizes */
+.btn-sm {
+    padding: 4px 10px;
+    font-size: 0.875rem;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 1.125rem;
+}
+
+/* Icon Buttons */
+.btn-icon {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.btn-icon.btn-sm {
+    width: 30px;
+    height: 30px;
+    font-size: 0.75rem;
+}
+
+.btn-icon.btn-lg {
+    width: 48px;
+    height: 48px;
+    font-size: 1.25rem;
+}
+
+.btn-icon:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--box-shadow-hover);
+}
+
+/* Button Groups */
+.btn + .btn {
+    margin-left: 0rem;
+}
+
+.btn-group .btn {
+    margin-left: 0;
+}
+
+/* Outline Buttons */
+.btn-outline-primary {
+    color: var(--primary);
+    background-color: transparent;
+    border: 1px solid var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: var(--text-light);
+}
+
+.btn-outline-secondary {
+    color: var(--secondary);
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secondary);
+    color: var(--text-light);
+}
+
+.btn-outline-primary.active {
+    background-color: var(--primary);
+    color: var(--text-light);
+    border-color: var(--primary);
+}
+
+.btn-outline-secondary.active {
+    background-color: var(--secondary);
+    color: var(--text-light);
+    border-color: var(--secondary);
+}
+
+/* Card Styles */
+.card {
+    border-radius: 8px;
+    border: none;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: var(--box-shadow-hover);
+}
+
+.card-header {
+    background-color: var(--primary) !important;
+    color: var(--text-light);
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+    padding: 12px 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Form Controls */
+.form-control, .form-select {
+    border-radius: var(--border-radius);
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem rgba(252, 74, 73, 0.25);
+}
+
+/* Table Styles */
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    background-color: var(--primary-light) !important;
+    color: var(--text-dark);
+    border-bottom: none;
+    vertical-align: middle;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(252, 74, 73, 0.05);
+}
+
+/* Status Badges */
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+    border-radius: 4px;
+}
+
+/* Badge Styling with Brand Colors */
+.badge.bg-primary {
+    background-color: var(--primary) !important;
+    color: var(--text-light);
+}
+
+.badge.bg-secondary {
+    background-color: var(--secondary) !important;
+    color: var(--text-light);
+}
+
+.badge.bg-success {
+    background-color: var(--success) !important;
+    color: var(--text-light);
+}
+
+.badge.bg-danger {
+    background-color: var(--danger) !important;
+    color: var(--text-light);
+}
+
+.badge.bg-warning {
+    background-color: var(--warning) !important;
+    color: #212529;
+}
+
+.badge.bg-info {
+    background-color: var(--info) !important;
+    color: var(--text-light);
+}
+
+/* YBS Custom Badges */
+.badge.bg-ybs-primary {
+    background-color: var(--primary) !important;
+    color: var(--text-light);
+}
+
+.badge.bg-ybs-muted {
+    background-color: var(--primary-muted) !important;
+    color: var(--text-light);
+}
+
+.badge.bg-ybs-light {
+    background-color: var(--primary-light) !important;
+    color: var(--text-dark);
+}
+
+/* Status-specific Badges */
+.badge.status-available {
+    background-color: var(--info) !important;
+    color: var(--text-light);
+}
+
+.badge.status-sold {
+    background-color: var(--success) !important;
+    color: var(--text-light);
+}
+
+.badge.status-damaged {
+    background-color: var(--danger) !important;
+    color: var(--text-light);
+}
+
+.badge.status-released {
+    background-color: var(--warning) !important;
+    color: #212529;
+}
+
+.badge.status-pending {
+    background-color: var(--primary-light) !important;
+    color: var(--text-dark);
+}
+
+.badge.status-approved {
+    background-color: var(--primary) !important;
+    color: var(--text-light);
+}
+
+.badge.status-declined {
+    background-color: var(--danger) !important;
+    color: var(--text-light);
+}
+
+.badge.status-completed {
+    background-color: var(--success) !important;
+    color: var(--text-light);
+}
+
+.badge.status-new {
+    background-color: var(--primary) !important;
+    color: var(--text-light);
+    position: relative;
+}
+
+.badge.status-new::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--warning);
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Modals */
+.modal-header {
+    background-color: var(--primary);
+    color: var(--text-light);
+    border-bottom: none;
+}
+
+.modal-header .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+    padding: 1rem 1.5rem;
+}
+
+/* Nav Pills */
+.nav-pills .nav-link {
+    color: var(--primary);
+    background: transparent;
+    border-radius: var(--border-radius);
+    margin: 0 0.25rem;
+    transition: var(--transition);
+}
+
+.nav-pills .nav-link:hover {
+    background-color: rgba(252, 74, 73, 0.1);
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--primary);
+    color: var(--text-light);
+}
+
+/* Title Nav Pills (in title container) */
+.title-container .nav-pills {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 4px;
+}
+
+.title-container .nav-pills .nav-link {
+    color: var(--text-light);
+    background: transparent;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.title-container .nav-pills .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.title-container .nav-pills .nav-link.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--primary);
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Pagination */
+.pagination .page-item.active .page-link {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.pagination .page-link {
+    color: var(--primary);
+}
+
+.pagination .page-link:hover {
+    color: var(--primary-hover);
+}
+
+/* Utility Classes */
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.bg-success {
+    background-color: var(--success) !important;
+}
+
+.bg-info {
+    background-color: var(--info) !important;
+}
+
+.bg-warning {
+    background-color: var(--warning) !important;
+}
+
+.bg-danger {
+    background-color: var(--danger) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .btn {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+    
+    .title-container {
+        padding: 12px 15px;
+    }
+    
+    .title-container h1 {
+        font-size: 1.5rem;
+    }
+    
+    .card-header {
+        padding: 10px 15px;
+    }
+    
+    .card-body {
+        padding: 15px;
+    }
+    
+    .title-container .nav-pills .nav-link {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+}
+
+/* Checkbox & Radio Styling */
+.form-check {
+    min-height: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-check-input {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0.15rem;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    appearance: none;
+    -webkit-appearance: none;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.form-check-input:active {
+    filter: brightness(90%);
+}
+
+.form-check-input:focus {
+    border-color: var(--primary);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(252, 74, 73, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* Checkbox */
+.form-check-input[type="checkbox"] {
+    border-radius: 0.25rem;
+}
+
+.form-check-input[type="checkbox"]:checked {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+/* Radio Button */
+.form-check-input[type="radio"] {
+    border-radius: 50%;
+}
+
+.form-check-input[type="radio"]:checked {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+/* Switch */
+.form-switch .form-check-input {
+    width: 2.5rem;
+    height: 1.25rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+    background-position: left center;
+    border-radius: 2rem;
+    transition: background-position 0.15s ease-in-out;
+}
+
+.form-switch .form-check-input:focus {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+}
+
+.form-switch .form-check-input:checked {
+    background-position: right center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+/* Custom styled checkbox */
+.custom-checkbox {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    user-select: none;
+    display: inline-block;
+}
+
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.custom-checkbox:hover input ~ .checkmark {
+    border-color: var(--primary);
+}
+
+.custom-checkbox input:checked ~ .checkmark {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.custom-checkbox .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 6px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* Disabled State */
+.form-check-input:disabled {
+    pointer-events: none;
+    filter: none;
+    opacity: 0.5;
+}
+
+.form-check-input[disabled] ~ .form-check-label, 
+.form-check-input:disabled ~ .form-check-label {
+    opacity: 0.5;
+}
+
+/* YBS light variant */
+.form-check-input.ybs-light:checked {
+    background-color: var(--primary-light);
+    border-color: var(--primary-light);
+}
+
+.form-check-input.ybs-light:focus {
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 0.25rem rgba(255, 201, 201, 0.5);
+}
+
+/* YBS muted variant */
+.form-check-input.ybs-muted:checked {
+    background-color: var(--primary-muted);
+    border-color: var(--primary-muted);
+}
+
+.form-check-input.ybs-muted:focus {
+    border-color: var(--primary-muted);
+    box-shadow: 0 0 0 0.25rem rgba(222, 60, 60, 0.25);
+} 

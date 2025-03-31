@@ -1,0 +1,359 @@
+body {
+    background-color: #FEF7F2;
+    font-family: "Segoe UI", sans-serif;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+.card-header {
+    background-color: #FC4A49;
+}
+
+/* Custom button styling */
+.btn-primary {
+    background-color: #FC4A49;
+    border-color: #FC4A49;
+}
+
+.btn-primary:hover {
+    background-color: #e63e3d;
+    border-color: #e63e3d;
+}
+
+/* DataTables pagination styling */
+.page-item.active .page-link {
+    background-color: #FC4A49;
+    border-color: #FC4A49;
+}
+
+.page-link {
+    color: #FC4A49;
+}
+
+.page-link:hover {
+    color: #e63e3d;
+}
+
+/* New tab styling to match utilities section */
+.title-container {
+    background-color: #FC4A49;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.title-container h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* Navigation Pills Styling - from utilities_section.css */
+.title-container .nav-pills {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 4px;
+}
+
+.title-container .nav-pills .nav-link {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.title-container .nav-pills .nav-link:hover {
+    background: rgba(252, 74, 73, 0.3);
+    transform: translateY(-1px);
+}
+
+.title-container .nav-pills .nav-link.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: #FC4A49;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Remove old tab styling */
+.nav-tabs .nav-link {
+    color: #6c757d;
+    font-weight: 500;
+    font-size: 1.05rem;
+    padding: 0.7rem 1.2rem;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: #FC4A49;
+    border: none;
+    background-color: white;
+}
+
+.nav-tabs .nav-link:hover:not(.active) {
+    border-color: transparent;
+    color: #e63e3d;
+}
+
+.tab-content {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    padding-top: 0px !important;
+}
+
+/* Add a little margin to the row inside the new transmittal tab */
+#new-pane .row {
+    margin-bottom: 0;
+}
+
+/* Processing indicator for DataTables */
+.dataTables_processing {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 0.5rem !important;
+    z-index: 1 !important;
+    padding: 1rem !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    color: #FC4A49 !important;
+}
+
+.dataTables_processing .spinner-border {
+    width: 2rem;
+    height: 2rem;
+}
+
+#transmittalTabsContent {
+    background-color: #FEF7F2;
+    border-color: #FEF7F2;
+}
+
+/* Table container styles */
+.table-responsive {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* DataTables specific styles */
+.dataTables_wrapper {
+    width: 100%;
+}
+
+/* Ensure table cells don't wrap unnecessarily */
+.table td, .table th {
+    white-space: nowrap;
+}
+
+/* Add some padding to the card body */
+.card-body {
+    padding: 1.25rem;
+}
+
+/* Ensure the container doesn't overflow */
+.container {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Ensure proper spacing in the tab content */
+.tab-content {
+    padding: 1rem 0;
+}
+
+/* Ensure proper card shadow and spacing */
+.card {
+    margin-bottom: 1rem;
+}
+
+/* Ensure proper spacing in the header */
+.card-header {
+    padding: 0.75rem 1.25rem;
+}
+
+/* Ensure proper button spacing in the header */
+.card-header .btn {
+    margin-left: 0.5rem;
+}
+
+/* Ensure proper table header alignment */
+.table thead th {
+    vertical-align: middle;
+    background-color: #f8f9fa;
+}
+
+/* Ensure proper table cell alignment */
+.table td {
+    vertical-align: middle;
+}
+
+/* Ensure proper badge alignment */
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+/* Ensure proper dropdown menu alignment */
+.dropdown-menu {
+    min-width: 160px;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+
+/* Ensure proper button sizing */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+/* Ensure proper spacing in the title container */
+.title-container {
+    margin-bottom: 1.5rem;
+}
+
+/* Ensure proper tab styling */
+.nav-pills .nav-link {
+    margin: 0 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 0px 0 !important;
+    margin-top: 9px !important;
+}
+
+/* Highlight effect for new transmittals */
+@keyframes highlightFade {
+    0% {
+        background-color: #e3f2fd;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+.highlight-new {
+    animation: highlightFade 5s ease-out;
+}
+
+/* Add styles for product scanning functionality */
+#scanResultMessage {
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+#scanResultMessage.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+#scanResultMessage.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+#scanResultMessage.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+#receiveTable tbody tr.table-success {
+    background-color: #d4edda;
+    transition: background-color 0.5s ease;
+}
+
+/* Make scanner section stand out */
+#productScanInput:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    border-color: #86b7fe;
+}
+
+/* Add highlight animation for newly received products */
+@keyframes highlightSuccess {
+    0% { background-color: transparent; }
+    50% { background-color: #d4edda; }
+    100% { background-color: transparent; }
+}
+
+.highlight-success {
+    animation: highlightSuccess 2s ease;
+}
+
+/* Styles for grouped pending transmittals */
+.request-group .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.request-group .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.request-group .table {
+    margin-bottom: 0;
+}
+
+.request-group .table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+.request-group tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* Status badges */
+.badge.bg-warning {
+    background-color: #ffc107 !important;
+    color: #212529 !important;
+}
+
+.badge.bg-info {
+    background-color: #0dcaf0 !important;
+}
+
+/* Highlight animation for newly added or updated rows */
+@keyframes highlightFade {
+    0% { background-color: rgba(255, 243, 205, 1); }
+    100% { background-color: rgba(255, 243, 205, 0); }
+}
+
+.highlight-new {
+    animation: highlightFade 5s ease-out;
+}

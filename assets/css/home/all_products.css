@@ -1,0 +1,386 @@
+.all-products {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.all-products h2 {
+    color: #e94848;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Main content styles - Consolidated from multiple files */
+.main-content {
+    transition: max-width 0.3s ease, flex 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+    flex: 0 0 75%;
+    max-width: 75%;
+    height: calc(100vh - 85px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 20px 20px 20px;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+/* Main content expanded state */
+.main-content.expanded {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Main content shifted state (for sidebar) */
+.main-content.shifted {
+    margin-left: var(--sidebar-width);
+    width: calc(100% - var(--sidebar-width));
+}
+
+@media (max-width: 991.98px) {
+    .main-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Products row - Improved layout */
+.products-row {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    width: 100%;
+}
+
+/* Product grid - Completely redesigned */
+.product-grid {
+    display: grid;
+    gap: 15px;
+    width: 100%;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    opacity: 1;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 15px;
+}
+
+/* Product item card - Enhanced styling */
+.product-item {
+    height: 350px;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transform: translateY(0);
+}
+
+.product-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-item-image-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.product-item-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.product-item:hover .product-item-image {
+    transform: scale(1.05);
+}
+
+.product-item-name-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+    color: white;
+    padding: 20px 15px 15px;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+
+/* Load more button - Improved styling */
+.load-more-btn {
+    display: block;
+    margin: 30px auto 15px;
+    padding: 12px 25px;
+    background-color: #e94848;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 8px rgba(233, 72, 72, 0.2);
+}
+
+.load-more-btn:hover {
+    background-color: #d23535;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(233, 72, 72, 0.3);
+}
+
+.load-more-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(233, 72, 72, 0.2);
+}
+
+/* Responsive grid configurations */
+@media (min-width: 576px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1400px) {
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 575.98px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-item {
+        height: 350px;
+    }
+}
+
+/* Badge styling - Enhanced */
+.variation-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #e94848;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.damage-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #dc3545;
+    color: white;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+/* No products message */
+.no-products-message {
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: #666;
+}
+
+.no-products-message i {
+    color: #e94848;
+    margin-bottom: 15px;
+}
+
+.no-products-message h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.no-products-message p {
+    font-size: 1rem;
+}
+
+/* Responsive adjustments for sidebar toggle */
+@media (min-width: 769px) {
+    /* When sidebar is visible (default state) */
+    .products-container .product-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 15px;
+    }
+    
+    /* When sidebar is collapsed */
+    .sidebar-collapsed + .products-container .product-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    /* Reset product item width when using grid */
+    .product-grid .product-item {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .products-container .product-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .sidebar-collapsed + .products-container .product-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (min-width: 1600px) {
+    .products-container .product-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .sidebar-collapsed + .products-container .product-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+/* Availability badge */
+.availability-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    z-index: 2;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background-color: #28a745;
+    color: white;
+}
+
+.availability-badge.unavailable {
+    background-color: #dc3545;
+}
+
+.availability-badge.unavailable-size {
+    background-color: #fd7e14;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Active filter notice */
+.active-filter-notice {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: rgba(40, 167, 69, 0.1);
+    border-radius: 4px;
+    border-left: 4px solid #28a745;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.active-filter-notice strong {
+    color: #155724;
+}
+
+.active-filter-notice .clear-date-filter-btn {
+    margin-left: auto;
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.active-filter-notice .clear-date-filter-btn:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Expanded grid styles for when sidebar is collapsed */
+.product-grid.expanded-grid {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Adjust grid columns when sidebar is collapsed - using classes instead of media queries */
+@media (min-width: 992px) {
+    .main-content.expanded .product-grid,
+    .product-grid.expanded-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-content.expanded .product-grid,
+    .product-grid.expanded-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (min-width: 1400px) {
+    .main-content.expanded .product-grid,
+    .product-grid.expanded-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+/* When sidebar is collapsed, expand main content from left side */
+.sidebar-column.collapsed + .main-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 30px;
+}
